@@ -747,6 +747,12 @@ Install the following dependencies to connect to Dremio:
 
 Example SQLAlchemy URI: ``dremio://dremio:dremio123@localhost:31010/dremio``
 
+[Experiemental]
+
+You can also access Dremio via Arrow Flight protocol. Make sure to add flight by following the instructions here: https://github.com/dremio-hub/dremio-flight-connector. You can then use an URI like below:
+
+``dremio+flight://dremio:dremio123@localhost:47470/dremio``
+
 Presto
 ------
 
